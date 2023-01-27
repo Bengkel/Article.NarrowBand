@@ -17,29 +17,6 @@
 
 Install nanoFramework .NET Core Tool [nano firmware flasher](https://github.com/nanoframework/nanoFirmwareFlasher) through command line interface
 
-```
-dotnet tool install -g nanoff
-```
-
-Flash your device
-
-```
-nanoff --platform esp32 --update --serialport {yout-serial-port}
-```
-
-For example
-
-```
-nanoff --platform esp32 --update --serialport COM6
-```
-
-## PuTTY
-
-![Session settings](./images/putty-session.webp)
-![Serial settings](./images/putty-serial.webp)
-
-[Download PuTTY](https://www.putty.org/)
-
 ## Azure CLI /IoT extensions
 
 Install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) and the [IoT Extension](https://github.com/Azure/azure-iot-cli-extension) 
