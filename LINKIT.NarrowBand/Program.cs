@@ -11,7 +11,7 @@ namespace LINKIT.NBLTE
     public class Program
     {
         static SerialPort _serialPort;
-        static string _apn = "sam.iot-provider.com";
+        static string _apn = "<YOUR-APN>";
         static int _preferedNetworkMode = 9;
 
         static bool _success = false;
